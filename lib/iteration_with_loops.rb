@@ -6,7 +6,7 @@ i =0
 while i<src.length do
   innerI=0
   while innerI<src[i].length do
-    if src[i][innerI]%2 ==0;
+    if src[i][innerI].even?;
       puts src[i][innerI]
     end
   innerI+=1
